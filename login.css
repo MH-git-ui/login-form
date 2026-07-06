@@ -1,0 +1,46 @@
+header {
+    background-color: black;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px repeat(5, 1fr);
+    list-style: none;
+    gap: 5px;
+}
+
+.boxfirst {
+    color: white;
+    font-size: 2rem;
+}
+
+.box1,
+.boxlast {
+    align-items:center;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+.banner-leftside {
+    background-color: aliceblue;
+    align-content: center;
+    width: 100%;
+}
+.banner-rightside{
+    background-color:aquamarine;
+    align-content:center; 
+}
+.login-r  {
+    width: 100%;
+    background-color: blue;
+}

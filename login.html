@@ -1,7 +1,60 @@
-echo "# login-form" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/MH-git-ui/login-form.git
-git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        body {
+            background-color: bisque;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="container">
+                <li class="boxfirst">SecureApp</li>
+                <li class="box1"><a href="home.html">Home</a></li>
+                <li class="box1"><a href="features.html">Features</a></li>
+                <li class="box1"><a href="about.html">About</a></li>
+                <li class="box1"><a href="contact.html">Contact</a></li>
+                <li class="boxlast"> <button>login</button></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-leftside">
+                <h1>Welcome Back!</h1>
+                <p>Log into your account and continue where you letf off.</p>
+                <img src="loginphoto.png" alt="" height="300px" width="100%">
+            </div>
+            <div class="banner-rightside">
+                <form>
+                    <h1>Login</h1>
+                    <p>Enter your credentials to access your account</p>
+                    <p>Email <br>
+                        <input type="email" placeholder="Enter your email">
+                    </p>
+                    <p>Password <br>
+                        <input type="password" placeholder="Enter your password"> <br>
+
+                        <input class="button" type="radio">Remember me <span>forgot password?</span>
+                    </p>
+                    <button class="login-r" type="submit">Login</button>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
